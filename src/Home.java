@@ -23,10 +23,7 @@ public class Home extends JFrame{
     private JButton rp5000Button;
     private JButton rp10000Button;
     private JButton rp20000Button;
-    private JTextArea outputMessage;
-    private JTextField moneyInputTextField;
-    private JButton cancelButton;
-    private JButton button20;
+    private JTextField a0TextField;
     private JLabel txtItem1;
     private JLabel txtItem1Price;
     private JLabel txtItem2;
@@ -47,8 +44,9 @@ public class Home extends JFrame{
     private JLabel txtItem9Price;
     private JLabel txtItem10;
     private JLabel txtItem10Price;
-    private JLabel selectedItemTotal;
-    private JLabel selectedItemTotalLabel;
+    private JLabel yourBalanceItem;
+    private JLabel yourBalanceTitle;
+    private JLabel outputMessage;
 
     public Home(){
     }

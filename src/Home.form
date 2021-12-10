@@ -3,7 +3,7 @@
   <grid id="27dc6" binding="rootHome" layout-manager="GridLayoutManager" row-count="7" column-count="10" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
     <margin top="0" left="0" bottom="0" right="0"/>
     <constraints>
-      <xy x="20" y="20" width="904" height="683"/>
+      <xy x="20" y="20" width="929" height="703"/>
     </constraints>
     <properties/>
     <border type="none"/>
@@ -315,28 +315,28 @@
           </component>
           <component id="2512" class="javax.swing.JTextField" binding="textField1" default-binding="true">
             <constraints>
-              <grid row="1" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
-                <minimum-size width="-1" height="150"/>
-                <preferred-size width="150" height="150"/>
-                <maximum-size width="-1" height="150"/>
+              <grid row="1" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                <minimum-size width="-1" height="175"/>
+                <preferred-size width="150" height="175"/>
+                <maximum-size width="-1" height="175"/>
               </grid>
             </constraints>
             <properties/>
           </component>
-          <component id="cfcc3" class="javax.swing.JLabel" binding="selectedItemTotalLabel">
+          <component id="cfcc3" class="javax.swing.JLabel" binding="yourBalanceTitle">
             <constraints>
               <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
             </constraints>
             <properties>
-              <text value="Total-Please insert:"/>
+              <text value="Your Balance:"/>
             </properties>
           </component>
-          <component id="6c455" class="javax.swing.JLabel" binding="selectedItemTotal">
+          <component id="6c455" class="javax.swing.JLabel" binding="yourBalanceItem">
             <constraints>
               <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
             </constraints>
             <properties>
-              <text value="total item price"/>
+              <text value="0"/>
             </properties>
           </component>
           <hspacer id="b5b8d">
@@ -439,7 +439,7 @@
               <text value="Rp 20000"/>
             </properties>
           </component>
-          <component id="12abb" class="javax.swing.JTextField" binding="moneyInputTextField" default-binding="true">
+          <component id="12abb" class="javax.swing.JTextField" binding="a0TextField" default-binding="true">
             <constraints>
               <grid row="3" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="0" fill="0" indent="0" use-parent-layout="false">
                 <minimum-size width="250" height="-1"/>
@@ -448,7 +448,7 @@
               </grid>
             </constraints>
             <properties>
-              <text value="Money input"/>
+              <text value="0"/>
             </properties>
           </component>
           <component id="fbf27" class="javax.swing.JLabel">
@@ -493,40 +493,6 @@
               <text value="Return Coins"/>
             </properties>
           </component>
-          <component id="bd78d" class="javax.swing.JTextArea" binding="outputMessage">
-            <constraints>
-              <grid row="3" column="1" row-span="1" col-span="3" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
-                <minimum-size width="250" height="50"/>
-                <preferred-size width="250" height="50"/>
-                <maximum-size width="250" height="50"/>
-              </grid>
-            </constraints>
-            <properties/>
-          </component>
-          <component id="a71dc" class="javax.swing.JButton" binding="cancelButton" default-binding="true">
-            <constraints>
-              <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
-            </constraints>
-            <properties>
-              <text value="Cancel"/>
-            </properties>
-          </component>
-          <component id="9813a" class="javax.swing.JButton" binding="button20" default-binding="true">
-            <constraints>
-              <grid row="4" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
-            </constraints>
-            <properties>
-              <text value="Button"/>
-            </properties>
-          </component>
-          <component id="2cdb0" class="javax.swing.JLabel">
-            <constraints>
-              <grid row="4" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
-            </constraints>
-            <properties>
-              <text value="Clear order"/>
-            </properties>
-          </component>
           <vspacer id="19e43">
             <constraints>
               <grid row="0" column="1" row-span="1" col-span="3" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
@@ -547,6 +513,19 @@
               <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
             </constraints>
           </hspacer>
+          <component id="d3b88" class="javax.swing.JLabel" binding="outputMessage">
+            <constraints>
+              <grid row="4" column="1" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Output Message"/>
+            </properties>
+          </component>
+          <vspacer id="362b0">
+            <constraints>
+              <grid row="3" column="1" row-span="1" col-span="3" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </vspacer>
         </children>
       </grid>
       <component id="7bad1" class="javax.swing.JLabel" binding="txtItem2">
